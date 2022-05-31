@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Enum Name="DigitalSchedule.Domain.Enum.Role">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAQAAAAAAAQAAAAQAAAABgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enum\Role.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DigitalSchedule.Domain.Enum.StudySubgroup">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAQAAACA=</HashCode>
+      <FileName>Enum\StudySubgroup.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DigitalSchedule.Domain.Enum.SubjectOrder">
+    <Position X="0.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAAAAAQAAAAAAAAIAIAABAAAAAAAAAAAAAaA=</HashCode>
+      <FileName>Enum\SubjectOrder.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="DigitalSchedule.Domain.Enum.Week">
+    <Position X="2.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Enum\Week.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
