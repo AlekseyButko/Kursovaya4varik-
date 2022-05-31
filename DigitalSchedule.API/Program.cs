@@ -12,11 +12,13 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<ApplicationContext>(options =>
 {
     var connection = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseSqlServer(connection);
 });
+
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ISubjectRepository, SubjectRepository>();
 builder.Services.AddScoped<ITeacherRepository, TeacherRepository>();
