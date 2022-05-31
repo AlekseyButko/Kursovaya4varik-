@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DigitalSchedule.Exceptions.NothingFoundByFilterException">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NothingFoundByFilterException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSchedule.Exceptions.SubjectAllreadyExist">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubjectAllreadyExist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSchedule.Exceptions.SubjectNotFoundException">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SubjectNotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSchedule.Exceptions.TeacherAllreadyHasLessonOnThisPareException">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TeacherAllreadyHasLessonOnThisPareException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSchedule.Exceptions.UnccorectSubjectArgumentsException">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnccorectSubjectArgumentsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSchedule.Exceptions.UserAllreadyExistsException">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserAllreadyExistsException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DigitalSchedule.Exceptions.UserNotFoundException">
+    <Position X="0.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserNotFoundException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
