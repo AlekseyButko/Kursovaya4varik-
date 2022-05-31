@@ -17,7 +17,6 @@ public class AccountController : ControllerBase
     {
         this.accountService = accountService;
     }
-
     [HttpPost]
     [Route("register")]
     public IActionResult Register(Student student)
@@ -32,14 +31,13 @@ public class AccountController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
-
     [HttpPost]
     [Route("login")]
     public IActionResult Login(UserLoginModel user)
     {
         if (UserSession.User != null)
             return BadRequest("AllreadyLoggedIn");
-
+  
         try
         {
             User u = accountService.LoginUser(user.ToDomain());
@@ -52,7 +50,6 @@ public class AccountController : ControllerBase
             return BadRequest(ex.Message);
         }
     }
-
     [HttpGet]
     [Route("logout")]
     public IActionResult Logout()

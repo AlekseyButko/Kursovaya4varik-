@@ -27,9 +27,7 @@ public class ScheduleController : ControllerBase
 
         if (UserSession.User.Role != Domain.Enum.Role.Admin &&
             UserSession.User.Role != Domain.Enum.Role.Editor)
-        {
             return BadRequest("Not enough rights");
-        }
 
         try
         {
@@ -64,9 +62,7 @@ public class ScheduleController : ControllerBase
 
         if (UserSession.User.Role != Domain.Enum.Role.Admin &&
             UserSession.User.Role != Domain.Enum.Role.Editor)
-        {
             return BadRequest("Not enough rights");
-        }
 
         try
         {
@@ -93,9 +89,7 @@ public class ScheduleController : ControllerBase
 
         if (UserSession.User.Role != Domain.Enum.Role.Admin &&
             UserSession.User.Role != Domain.Enum.Role.Editor)
-        {
             return BadRequest("Not enough rights");
-        }
 
         try
         {

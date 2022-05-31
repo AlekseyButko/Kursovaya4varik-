@@ -14,7 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationContext>(options =>
 {
-    string connection = builder.Configuration.GetConnectionString("DefaultConnection");
+    var connection = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseSqlServer(connection);
 });
 builder.Services.AddScoped<IUserRepository, UserRepository>();
