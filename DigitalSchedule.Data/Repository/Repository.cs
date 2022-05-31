@@ -6,23 +6,11 @@ public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
 
     protected readonly ApplicationContext dataBase;
 
-    public void Add(TEntity entity)
-    {
-        dataBase.Set<TEntity>().Add(entity);
-    }
+    public void Add(TEntity entity) => dataBase.Set<TEntity>().Add(entity);
 
-    public IEnumerable<TEntity> GetAll()
-    {
-        return dataBase.Set<TEntity>().ToList();
-    }
+    public IEnumerable<TEntity> GetAll() => dataBase.Set<TEntity>().ToList();
 
-    public void Remove(TEntity entity)
-    {
-        dataBase.Set<TEntity>().Remove(entity);
-    }
+    public void Remove(TEntity entity) => dataBase.Set<TEntity>().Remove(entity);
 
-    public TEntity? Find(Predicate<TEntity> predicate)
-    {
-        return dataBase.Set<TEntity>().ToList().Find(predicate);
-    }
+    public TEntity? Find(Predicate<TEntity> predicate) => dataBase.Set<TEntity>().ToList().Find(predicate);
 }

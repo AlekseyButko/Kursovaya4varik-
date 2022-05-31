@@ -4,17 +4,17 @@ namespace DigitalSchedule.Data.UnitOfWork;
 
 public class UnitOfWork : IUnitOfWork
 {
-    public UnitOfWork(ApplicationContext context, 
-        IStudentRepository students, 
-        ITeacherRepository teachers,
-        IUserRepository users,
-        ISubjectRepository subjects)
+    public UnitOfWork(ApplicationContext contexts, 
+        IStudentRepository studentRep, 
+        ITeacherRepository teacherRep,
+        IUserRepository userRep,
+        ISubjectRepository subjectRep)
     {
-        dataContext = context;
-        Students = students;
-        Teachers = teachers;
-        Users = users;
-        Subjects = subjects;
+        dataContext = contexts;
+        Students = studentRep;
+        Teachers = teacherRep;
+        Users = userRep;
+        Subjects = subjectRep;
     }
 
     private readonly ApplicationContext dataContext;
