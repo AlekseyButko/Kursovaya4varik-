@@ -6,8 +6,5 @@ public class UserRepository : Repository<User>, IUserRepository
         : base(dataContext)
     {
     }
-    public new IEnumerable<User> GetAll()
-    {
-        return dataBase.Set<User>().ToList();
-    }
+    public new IEnumerable<User> GetAll() => dataBase.Set<User>().ToList();
 }
