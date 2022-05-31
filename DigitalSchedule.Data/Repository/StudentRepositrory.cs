@@ -7,8 +7,5 @@ public class StudentRepositrory : Repository<Student>, IStudentRepository
     {
     }
 
-    public IEnumerable<Student> GetByGroup(string group)
-    {
-        return dataBase.Students.Where(x => x.Group == group);
-    }
+    public IEnumerable<Student> GetByGroup(string group) => dataBase.Students.Where(x => x.Group == group);
 }
